@@ -4,7 +4,6 @@ fun main() {
     val scanner = Scanner(System.`in`)
     //Llegir la resposta
     val numero= scanner.next().toInt()
-
     //Mostrar a la pantalla la casa a que pertany l'usuari depenent de la resposta
     when (numero) {
         in 1..31 -> print(1)
