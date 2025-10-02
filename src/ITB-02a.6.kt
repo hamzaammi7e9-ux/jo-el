@@ -1,14 +1,15 @@
-import java.util.Scanner
+    import java.util.Scanner
+    import kotlin.math.abs
 
-fun main() {
-    val scanner = Scanner(System.`in`)
-    //Llegir la resposta
-    val numero1 = scanner.nextInt()
-    val numero2 = scanner.nextInt()
-    val numero3 = scanner.nextInt()
+    fun main() {
+        val scanner = Scanner(System.`in`)
 
-    if(numero1==numero2)print("SI")
-    else if (numero1==numero3)print("SI")
-    else if (numero2==numero3)print("SI")
-    else print("NO")
-}
+        //Llegir dos valors de numeros
+        val numero1 = scanner.nextInt()
+        val numero2 = scanner.nextInt()
+
+        //Creem una variable que sigui igual al valor absolut de la diferència dels dos numeros.
+        val diferenciaNumeros = abs(numero1 - numero2)
+        //Mostrem a la pantalla el valor de la variable
+        print(diferenciaNumeros)
+    }
