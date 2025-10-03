@@ -2,7 +2,7 @@ import java.util.Scanner
 
 fun main() {
     val scanner = Scanner(System.`in`)
-    //Llegim les dades
+    //Llegim les hores, els minuts i els segons
     val hora = scanner.nextInt()
     val minuts = scanner.nextInt()
     val segons = scanner.nextInt()
