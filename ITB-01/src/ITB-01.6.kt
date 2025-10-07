@@ -28,7 +28,5 @@ fun main() {
         in 907200 until 950400 -> print("nit del dia 11")
         in 950400 until 993600 -> print("mati del dia 12")
         in 993600 until 1000000 -> print("nit del dia 12")
-
     }
-
 }
