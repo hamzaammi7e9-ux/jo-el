@@ -12,4 +12,4 @@ fun main() {
         hora in 0 until 24 && minuts in 0..59 && segons in 0..59-> print ("SI")
         else -> print("NO")
     }
-}
+} 
