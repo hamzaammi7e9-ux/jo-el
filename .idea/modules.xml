@@ -4,10 +4,17 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ITB-01/ITB-01.iml" filepath="$PROJECT_DIR$/ITB-01/ITB-01.iml" />
       <module fileurl="file://$PROJECT_DIR$/ITB-02/ITB-02.iml" filepath="$PROJECT_DIR$/ITB-02/ITB-02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ITB-02/ITB-02a/ITB-02a.iml" filepath="$PROJECT_DIR$/ITB-02/ITB-02a/ITB-02a.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ITB-02/ITB-02b/ITB-02b.iml" filepath="$PROJECT_DIR$/ITB-02/ITB-02b/ITB-02b.iml" />
       <module fileurl="file://$PROJECT_DIR$/ITB-03/ITB-03.iml" filepath="$PROJECT_DIR$/ITB-03/ITB-03.iml" />
       <module fileurl="file://$PROJECT_DIR$/ITB-04/ITB-04.iml" filepath="$PROJECT_DIR$/ITB-04/ITB-04.iml" />
       <module fileurl="file://$PROJECT_DIR$/ITB-05/ITB-05.iml" filepath="$PROJECT_DIR$/ITB-05/ITB-05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ITB-05/ITB-05a/ITB-05a.iml" filepath="$PROJECT_DIR$/ITB-05/ITB-05a/ITB-05a.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ITB-05/ITB-05b/ITB-05b.iml" filepath="$PROJECT_DIR$/ITB-05/ITB-05b/ITB-05b.iml" />
       <module fileurl="file://$PROJECT_DIR$/ITB-06/ITB-06.iml" filepath="$PROJECT_DIR$/ITB-06/ITB-06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ITB-06/ITB-06a/ITB-06a.iml" filepath="$PROJECT_DIR$/ITB-06/ITB-06a/ITB-06a.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ITB-06/ITB-06b/ITB-06b.iml" filepath="$PROJECT_DIR$/ITB-06/ITB-06b/ITB-06b.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ITB-06/ITB-06c/ITB-06c.iml" filepath="$PROJECT_DIR$/ITB-06/ITB-06c/ITB-06c.iml" />
       <module fileurl="file://$PROJECT_DIR$/JO-EL.iml" filepath="$PROJECT_DIR$/JO-EL.iml" />
     </modules>
   </component>
