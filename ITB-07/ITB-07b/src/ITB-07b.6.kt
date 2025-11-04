@@ -24,7 +24,7 @@ fun main() {
 
         var twoValuesInARow : Boolean = false
 
-        for(number in 0 until arraySizeK){
+        for(number in 0 until arraySizeK-1){
             if(numbersList[number]==numbersList[number+1]){
                 twoValuesInARow = true
             }
