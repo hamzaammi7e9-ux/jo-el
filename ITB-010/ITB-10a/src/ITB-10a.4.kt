@@ -1,3 +1,4 @@
+import java.awt.event.WindowAdapter
 import java.util.Scanner
 
 //Make a program that reads a phrase with various words, then separate them with a split in an array of words.
@@ -10,7 +11,7 @@ import java.util.Scanner
 //Line 2: a number (N) that represents the amount of times that Marc focuses on what Albert does
 //Line 3: N numbers, representing the hours in which he watches Albert (15 to 20).
 //If in any moment Marc catches Albert doing anything but Eclipse, he will judge him.
-//If Albert is not playing "HollowKnight", "DarkSouls" or "Zelda", a shitlist level will be given to him. 2 levels if he is playing LOL.
+//If Albert is not playing "HollowKnight", "DarkSouls" or "Zelda", we add a shitlist level to him. And 2 levels if he is playing LOL.
 
 //Output:
 //Print Albert's shitlist level in this format: ["Nivell de Shitlist: "+shitlistLevel]
@@ -19,20 +20,39 @@ fun main() {
 
     val sc = Scanner(System.`in`)
     val amountOfCases = sc.nextInt()
-    sc.nextLine()
 
     repeat(amountOfCases) {
 
-        val albertActivity = IntArray(6){sc.nextInt()}
 
-        val timesMarcFocused = sc.nextInt()
-        val watchingHours = IntArray(timesMarcFocused)
-        for(i in 0 until timesMarcFocused){
-            watchingHours[i] = sc.nextInt()
+  /*      val albertActivityAt15 = sc.next()
+        val albertActivityAt16 = sc.next()
+        val albertActivityAt17 = sc.next()
+        val albertActivityAt18 = sc.next()
+        val albertActivityAt19 = sc.next()
+        val albertActivityAt20 = sc.next()*/
+
+        val albertActivity = sc.nextLine().split(" ").toTypedArray()
+        for(i in 0 until 6){
+            albertActivity[i] = sc.next()
+
+        sc.nextLine()
+
+        var shitlistLevel = 0
+
+        val allowedGames: List<String> = listOf("HollowKnight", "DarkSouls", "Zelda")
+        sc.nextLine()
+
+        val watchinghours = sc.nextLine().split(" ").toList()
+
+        for (i in 0 until 6) {
+            if (!allowedGames.contains(albertActivity[i]) && watchinghours[i] == "15" && albertActivity[i] == "LOL") {
+                shitlistLevel
+            }
+
         }
-
-
-
     }
+
+
+}
 }
 
